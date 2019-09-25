@@ -1,7 +1,7 @@
 server:
   port: 8080
-  servlet:
-    context-path: /baseframe
+#  servlet:
+#    context-path: /baseframe
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml,classpath:mapper/custom/*Mapper.xml
@@ -57,3 +57,8 @@ spring:
 #日志配置文件路径
 logging:
   config: classpath:log4j2.xml
+
+wx:
+  corpsecret: vrEULogN9a9ECzB9dzRLYsxFdYX5lY_QoBDh2KrPRtw
+  corpid: ww377d780f028efb92
+
